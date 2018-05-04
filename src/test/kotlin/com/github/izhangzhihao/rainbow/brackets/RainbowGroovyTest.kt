@@ -13,7 +13,7 @@ class RainbowGroovyTest : LightCodeInsightFixtureTestCase() {
 Map<String, Map<String, String>> convertObjectsToMapProperties(Map<String, Object> body) {
     return body.collectEntries {
         Map.Entry<String, Object> entry ->
-            [(entry.key): toMap(entry.value)]
+            [entry.key: entry.value]
     } as Map<String, Map<String, String>>
 }
                 """.trimIndent()
@@ -42,11 +42,6 @@ Map<String, Map<String, String>> convertObjectsToMapProperties(Map<String, Objec
                                 angleLevel(0),
 
                                 squareLevel(0),
-
-                                roundLevel(0),
-                                roundLevel(0),
-                                roundLevel(0),
-                                roundLevel(0),
 
                                 squareLevel(0),
 
