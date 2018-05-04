@@ -40,11 +40,14 @@ Map<String, Map<String, String>> convertObjectsToMapProperties(Map<String, Objec
                                 squigglyLevel(1),
                                 angleLevel(0),
                                 angleLevel(0),
+
                                 squareLevel(0),
+
                                 roundLevel(0),
                                 roundLevel(0),
                                 roundLevel(0),
                                 roundLevel(0),
+
                                 squareLevel(0),
 
                                 squigglyLevel(1),
